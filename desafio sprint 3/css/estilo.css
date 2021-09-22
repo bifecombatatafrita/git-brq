@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.clearfix{
+    clear: both;
+}
+
+body{
+    margin-top: 0px;
+}
+
+div#pagina{
+    width: 1030px;
+    margin: auto;
+}
+
+header#cabecalho{
+    background-color: #22A0A0;
+    width: auto;
+    height: 158px;
+    
+}
+
+header#cabecalho img#logo{
+    float: left;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+
+header#cabecalho div#pesquisa{
+    float: left;
+    width: 250px;
+    height: 38px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 146px;
+    margin-top: 79px;
+}
+
+div#pesquisa img{
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+#menu ul{
+    float: left;
+    margin-top: 79px;
+    margin-left: 85px;
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu li:hover{
+    color: white;
+    text-decoration: underline 3px solid;
+}
+
+
+header#titulo{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+div#esquerda{
+    float: left;
+    width: 623px;
+    border-right: 1px solid  #22A0A0;
+    
+}
+
+#america{
+    width: 477px;
+    margin-left: 105px;
+}
+
+#noticias-menores{
+    width: 477px;
+    margin-left: 105px;
+}
+
+#noticias-menores article{
+    width: 215px;
+}
+
+#bolivia,#gramado{
+    float: left;
+    margin-bottom: 41px;
+}
+
+#equador,#rio{
+    float: right;
+    margin-bottom: 41px;
+}
+
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+article h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+article h3{
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div#direita{
+    float: right;
+    width: 400px;
+}
+
+#mexico{
+    margin-left: 17px;
+    width: 283px;
+}
+
+#rodape{
+    height: 115px;
+    padding-top: 5px;
+    background-color: #22A0A0;
+}
+
+#rodape h2{
+    margin-left: 125px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+#rodape h1{
+    margin-left: 105px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#rodape img#logo{
+    float: right;
+    margin-top: 13px;
+    margin-right: 107px;
+}
