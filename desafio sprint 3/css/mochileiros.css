@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* div#primeiro {
+    width: auto;
+    padding-left: 95px;
+    border: 1px solid rgba(0, 0, 0, 0);
+} */
+
+
+
+#retangulo {
+    width: 812px;
+    height: 306px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 95px;
+}
+
+#retangulo h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#retangulo p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    width: 186px;
+    text-align: center;
+}
+
+#retangulo div#esq {
+    float: left;
+}
+
+#retangulo div#centro {
+    float: left;
+    padding-left: 127px;
+}
+
+#retangulo div#dir {
+    float: right;
+}
+
+#meio {
+    background-image: url(../imagens/mochileiros/meio.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    width: 1024px;
+    height: 266px;
+    padding-top: 36px;
+}
+
+#meio h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+
+    width: 482px;
+    height: 42px;
+    margin-top: 112px;
+    margin-bottom: 112px;
+    margin-left: 272px;
+    color: white;
+    text-align: center;
+
+}
+
+div#comentario {
+    margin-top: 41px;
+    margin-bottom: 42px;
+}
+
+div#form {
+    width: auto;
+    height: 358px;
+    /* border: 1px solid black; */
+}
+
+div#form #conteudo {
+    width: 644px;
+    height: 283px;
+    margin-left: 190px;
+}
+
+div#form #conteudo #nome {
+    float: left;
+    width: 209px;
+    height: 41px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    padding-left: 20px;
+    text-align: left;
+    background-color: #DAF5F5;
+    border: 1px solid #22A0A0;
+}
+
+input[type='file']{
+    display: none;
+}
+
+div#form #conteudo label{
+    float: right;
+    width: 166px;
+    height: 23px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #70A3A3;
+    border: 1px solid #70A3A3;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 42px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+div#form #conteudo #boxcoment {
+    float: left;
+    width: 620px;
+    height: 136px;
+    border-radius: 10px;
+    margin-top: 13px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    padding-top: 11px;
+    padding-left: 20px;
+    text-align: left;
+    resize: none;
+    background-color: #DAF5F5;
+    border: 1px solid #22A0A0;
+}
+
+div#form #conteudo #enviar {
+    float: right;
+    width: 208px;
+    height: 52px;
+    border-radius: 10px;
+    margin-top: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 72px;
+    padding-top: 3px;
+    background-color: #155050;
+    cursor: pointer;
+}
