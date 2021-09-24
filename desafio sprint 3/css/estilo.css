@@ -83,7 +83,7 @@ header#titulo{
 
 div#esquerda{
     float: left;
-    width: 622px;
+    width: 619px;
     border-right: 1px solid  #22A0A0;
     
 }
@@ -157,13 +157,11 @@ div#direita{
     float: right;
     width: 400px;
     padding: 0px;
-    border: 1px solid black;
 }
 
 #mexico{
     margin-left: 17px;
     width: 283px;
-    border: 1px solid black;
 }
 
 #rodape{
