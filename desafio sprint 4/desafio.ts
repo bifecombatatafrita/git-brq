@@ -1,5 +1,3 @@
-
-
 class Login{
     email: string;
     protected senha: string;
