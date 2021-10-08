@@ -37,7 +37,7 @@ class Perfil{
 
 }
 
-class Video{
+class Video {
     resolucao: [number,number];
     extencao: string;
 
@@ -47,26 +47,62 @@ class Video{
     }
 }
 
-class CatVideo {
-    nome: string;
-    classIndicativa: number;
+class PodCast{
+    extencao: string;
 
-    constructor(categoria: string, classindicativa: number){
-        this.nome = categoria;
-        this.classIndicativa= classindicativa;
+    constructor(extencao: string){
+        this.extencao = extencao;
     }
 }
 
-class Filme extends Video{
+class Categoria {
+    nome: string;
+    genero: string;
+    classIndicativa: number;
+
+    constructor(categoria: string, genero: string, classindicativa: number){
+        this.nome = categoria;
+        this.genero = genero;
+        this.classIndicativa = classindicativa;
+    }
+}
+
+interface Reproducao{
+    Play:()=>void;
+    Pause:()=>void;
+    Stop:()=>void;
+}
+
+class Filme extends Video implements Reproducao {
     idFilme: number;
-    categoria: CatVideo;
+    categoria: Categoria;
     nome: string;
 
-    constructor(resolucao: [number,number],extencao: string, idFilme: number, categoria: CatVideo, nome: string){
+    constructor(resolucao: [number,number],extencao: string, idFilme: number, categoria: Categoria, nome: string){
         super(resolucao,extencao)
         this.idFilme = idFilme;
         this.categoria = categoria;
         this.nome = nome;
     }
+    
+    Play(){};
+    Pause(){};
+    Stop(){};
+}
 
+class TrilhaPodCast extends PodCast implements Reproducao {
+    idTrilha: number;
+    categoria: Categoria;
+    nome: string;
+
+    constructor(resolucao: [number,number],extencao: string, idFilme: number, categoria: Categoria, nome: string){
+        super(extencao)
+        this.idTrilha = idFilme;
+        this.categoria = categoria;
+        this.nome = nome;
+    }
+
+    Play(){};
+    Pause(){};
+    Stop(){};
 }
