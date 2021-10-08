@@ -56,8 +56,9 @@ var PodCast = /** @class */ (function () {
     return PodCast;
 }());
 var Categoria = /** @class */ (function () {
-    function Categoria(categoria, classindicativa) {
+    function Categoria(categoria, genero, classindicativa) {
         this.nome = categoria;
+        this.genero = genero;
         this.classIndicativa = classindicativa;
     }
     return Categoria;
