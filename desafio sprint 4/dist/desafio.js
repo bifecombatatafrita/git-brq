@@ -49,12 +49,18 @@ var Video = /** @class */ (function () {
     }
     return Video;
 }());
-var CatVideo = /** @class */ (function () {
-    function CatVideo(categoria, classindicativa) {
+var PodCast = /** @class */ (function () {
+    function PodCast(extencao) {
+        this.extencao = extencao;
+    }
+    return PodCast;
+}());
+var Categoria = /** @class */ (function () {
+    function Categoria(categoria, classindicativa) {
         this.nome = categoria;
         this.classIndicativa = classindicativa;
     }
-    return CatVideo;
+    return Categoria;
 }());
 var Filme = /** @class */ (function (_super) {
     __extends(Filme, _super);
@@ -65,5 +71,28 @@ var Filme = /** @class */ (function (_super) {
         _this.nome = nome;
         return _this;
     }
+    Filme.prototype.Play = function () { };
+    ;
+    Filme.prototype.Pause = function () { };
+    ;
+    Filme.prototype.Stop = function () { };
+    ;
     return Filme;
 }(Video));
+var TrilhaPodCast = /** @class */ (function (_super) {
+    __extends(TrilhaPodCast, _super);
+    function TrilhaPodCast(resolucao, extencao, idFilme, categoria, nome) {
+        var _this = _super.call(this, extencao) || this;
+        _this.idTrilha = idFilme;
+        _this.categoria = categoria;
+        _this.nome = nome;
+        return _this;
+    }
+    TrilhaPodCast.prototype.Play = function () { };
+    ;
+    TrilhaPodCast.prototype.Pause = function () { };
+    ;
+    TrilhaPodCast.prototype.Stop = function () { };
+    ;
+    return TrilhaPodCast;
+}(PodCast));
